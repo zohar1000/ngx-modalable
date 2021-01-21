@@ -1,0 +1,9 @@
+<div *ngIf="!modalRef">
+  <ng-container *ngTemplateOutlet="template"></ng-container>
+</div>
+
+<ng-template #template>
+  <div [ngClass]="{'modal-wrapper': modalRef}">
+    <ng-content></ng-content>
+  </div>
+</ng-template>

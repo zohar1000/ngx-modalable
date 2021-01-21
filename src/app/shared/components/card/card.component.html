@@ -1,0 +1,17 @@
+<div class="content">
+  <app-modalable [isExpand]="isExpanded">
+    <div class="card">
+      <div class="card-header">
+        <span>{{data.title}}</span>
+        <a href="#" class="btn btn-primary" (click)="onClickToggle()">{{isExpanded ? 'Collapse' : 'Expand'}}</a>
+      </div>
+      <div class="card-body">
+        <textarea>{{data.text}}</textarea>
+        <br/><br/>
+        <a href="#" class="btn btn-primary" (click)="onClickTest()">CLICK</a>
+      </div>
+    </div>
+  </app-modalable>
+</div>
+
+
