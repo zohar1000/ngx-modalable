@@ -5,6 +5,7 @@ and you want to comfortably view/edit that content in a modal instead of scrolli
 
 In case you edit the component the data binding remain when displayed in the modal.<br/>
 
+(Click the animated .gif below to enlarge it)<br/>
 ![](https://github.com/zohar1000/ngx-modalable/blob/master/docs/assets/recording.gif)
 
 
