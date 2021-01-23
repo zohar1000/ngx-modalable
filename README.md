@@ -11,4 +11,4 @@ In case you edit the component the data binding remain when displayed in the mod
 # how to implement in your project
 
 The project uses ngx-bootstrap to open the modal.<br/>
-Just wrap your content in app-modalable and pass it a boolean @Input() parameter if to expand or not.
+Just wrap your content in app-modalable and pass it a boolean @Input() indicating the expansion state.
