@@ -8,7 +8,10 @@ and you want to comfortably view/edit that content in a modal instead of scrolli
 In case you edit the component the data binding remain when displayed in the modal.
 <br/><br/>
 
-![Demo](https://github.com/zohar1000/ngx-modalable/blob/master/docs/assets/recording.gif "")
+![](https://github.com/zohar1000/ngx-modalable/blob/master/docs/assets/recording.gif | width=100)
+
+<br/><br/>
+![test image size](/docs/assets/recording.gif){:height="800px"}
 
 # how to implement in your project
 
