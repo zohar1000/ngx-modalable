@@ -6,9 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  mrcs = [
-    { title: 'mrc component 1', text: 'aaa' },
-    { title: 'mrc component 2', text: 'bbb' },
-    { title: 'mrc component 3', text: 'ccc' }
+  cards = [
+    // { title: 'card component 1', text: 'line 1 - component 1' },
+    // { title: 'card component 2', text: 'line 1 - component 2' },
+    // { title: 'card component 3', text: 'line 1 - component 3' }
+
+	  { title: 'card component 1', text: '' },
+	  { title: 'card component 2', text: '' },
+	  { title: 'card component 3', text: '' }
   ];
 }

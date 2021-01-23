@@ -1,27 +1,15 @@
-# Modal
+The project shows how to project the content of a component into a modal.
+<br/><br/>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
+This is useful for cases where the component size is smaller than its content size (e.g. card), 
+and you want to comfortably view/edit that content in a modal instead of scrolling inside the component.
+<br/><br/>
 
-## Development server
+In case you edit the component the data binding remain when displayed in the modal.
+<br/><br/>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Demo](https://github.com/zohar1000/ngx-modalable/docs/assets/recording.gif "")
 
-## Code scaffolding
+# how to implement in your project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The project uses ngx-bootstrap to open the modal.

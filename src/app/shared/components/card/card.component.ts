@@ -14,6 +14,6 @@ export class CardComponent {
   }
 
   onClickTest() {
-    alert('click event is captured in the card component class');
+    alert('click event is captured in the card component class!');
   }
 }
