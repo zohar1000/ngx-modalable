@@ -1,7 +1,7 @@
 ngx-modalable enables displaying a portion of your class template in a modal while preserving the binding. <br/>
 
 
-<sub>(Click the animated .gif below to enlarge it)</sub><br/>
+<sup>(Click the animated gif below to enlarge it)</sup><br/>
 ![](https://github.com/zohar1000/ngx-modalable/blob/master/docs/assets/recording.gif)
 
 This is useful for cases where the component size is smaller than its content size (e.g. card),
