@@ -11,7 +11,7 @@ In case you edit the component the data binding remain when displayed in the mod
 
 # Using ngx-modalable
 Wrap the template portion you want to display in a modal with ngx-modalable tag.<br/>
-In the example below the template portion contains a card. 
+In the example below the template portion contains a card.
 
 card.component.ts
 ```angular2html
@@ -70,7 +70,7 @@ The template in initially displayed inline, it is determined by the value of 'is
 The tag ngx-modalable receives 3 input fields:
 1. isExpanded - a boolean which determines if the template should be displayed in a modal or not.<br/>
 2. openFn - a function that will be called by ngx-modalable when isExpanded changes to true.<br/>
-the function will be passed a parameter of type TemplateRef which represents the template portion to be displayed in a modal.<br/>
+   the function will be passed a parameter of type TemplateRef which represents the template portion to be displayed in a modal.<br/>
    the function should use this parameter to display the template in a modal.<br/>
    opening the modal from the containing component and not by ngx-modalable makes it flexible to use any theming framework such as material, bootstrap, prime, ng-zoro, nebular, etc.
 3. closeFn - a function that will be called by ngx-modalable when isExpanded changes to false.<br/>

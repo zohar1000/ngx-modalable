@@ -1,8 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-package-lock.json
-
 # compiled output
+package-lock.json
 /dist
 /tmp
 /out-tsc
@@ -11,6 +10,7 @@ package-lock.json
 
 # dependencies
 /node_modules
+node_modules/
 
 # profiling files
 chrome-profiler-events*.json

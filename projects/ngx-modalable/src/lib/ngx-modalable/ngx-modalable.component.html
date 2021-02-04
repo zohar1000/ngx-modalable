@@ -1,0 +1,11 @@
+<div #spacer class="spacer">
+  <div *ngIf="!isExpanded">
+    <ng-container *ngTemplateOutlet="template"></ng-container>
+  </div>
+</div>
+
+<ng-template #template>
+  <div #content [ngClass]="{'modal-wrapper': isExpanded}">
+    <ng-content></ng-content>
+  </div>
+</ng-template>
