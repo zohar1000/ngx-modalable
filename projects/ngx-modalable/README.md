@@ -9,6 +9,8 @@ and you want to comfortably view/edit that content in a modal instead of scrolli
 
 In case you edit the component the data binding remain when displayed in the modal.<br/>
 
+**note**: you don't have to wrap the entire component template, you can wrap only a portion of it.
+
 # Using ngx-modalable
 Wrap the template portion you want to display in a modal with ngx-modalable tag.<br/>
 In the example below the template portion contains a card.
@@ -89,11 +91,10 @@ import { NgxModalableModule } from 'ngx-modalable';
 .
 .
 @NgModule(
-  imports: [
-    NgxModalableModule
-  ]
+imports: [
+NgxModalableModule
+]
 })
 export class SharedModule {}
 ```
-
 
