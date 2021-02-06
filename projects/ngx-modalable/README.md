@@ -1,4 +1,4 @@
-ngx-modalable enables displaying a component template or a portion of it in a modal while preserving the binding. <br/>
+ngx-modalable enable displaying a component template or a portion of it in a modal while preserving the binding. <br/>
 
 
 <sup>(Click the animated gif below to enlarge it)</sup><br/>
