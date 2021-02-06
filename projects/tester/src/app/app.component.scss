@@ -3,7 +3,7 @@
   flex-direction: column;
   background: lightgray;
   height: 100%;
-  app-card:not(:first-child) {
+  app-card:not(:first-child), app-card-with-esc:not(:first-child), app-card-using-app-modalable:not(:first-child) {
     margin-top: 1rem;
   }
 }

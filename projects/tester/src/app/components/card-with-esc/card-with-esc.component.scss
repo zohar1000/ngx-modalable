@@ -1,0 +1,19 @@
+.shadowless {
+  box-shadow: none;
+}
+
+.content {
+  min-width: 20rem;
+  width: fit-content;
+  mat-card-header {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    button {
+      height: fit-content;
+    }
+  }
+  .textarea {
+    width: 19rem !important;
+  }
+}

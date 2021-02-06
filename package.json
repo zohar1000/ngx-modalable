@@ -13,7 +13,7 @@
     "copy:readme:win": "copy ./README.md ./projects/ngx-modalable/README.md /V /Y",
     "lib:build": "ng build ngx-modalable --prod",
     "lib:link": "npm run lib:build && cd dist/ngx-modalable && npm link",
-    "lib:publish": "npm run lib:build && cd dist/ngx-modalable && npm publish"
+    "lib:publish": "npm run copy:readme:linux && npm run lib:build && cd dist/ngx-modalable && npm publish"
   },
   "private": true,
   "dependencies": {

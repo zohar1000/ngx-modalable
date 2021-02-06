@@ -1,13 +1,14 @@
 import { Component, Input, TemplateRef } from '@angular/core';
 import { Card } from '../../shared/models/card.model';
 import { MatDialog } from '@angular/material/dialog';
+import { take } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.scss']
+  selector: 'app-card-with-esc',
+  templateUrl: './card-with-esc.component.html',
+  styleUrls: ['./card-with-esc.component.scss']
 })
-export class CardComponent {
+export class CardWithEscComponent {
   @Input() card: Card;
   isExpanded = false;
   modalRef;
@@ -23,7 +24,10 @@ export class CardComponent {
   }
 
   openModal(templateRef: TemplateRef<any>) {
-    this.modalRef = this.modalService.open(templateRef, { disableClose: true });
+    this.modalRef = this.modalService.open(templateRef, { disableClose: false });
+    this.modalRef.afterClosed().pipe(take(1)).subscribe(() => {
+      if (this.isExpanded) this.onClickToggle();
+    });
   }
 
   closeModal() {

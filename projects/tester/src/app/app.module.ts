@@ -9,11 +9,17 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './components/card/card.component';
 import { NgxModalableModule } from 'ngx-modalable';
+import { CardWithEscComponent } from './components/card-with-esc/card-with-esc.component';
+import { AppModalableComponent } from './components/app-modalable/app-modalable.component';
+import { CardUsingAppModalableComponent } from './components/card-using-app-modalable/card-using-app-modalable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    CardWithEscComponent,
+    AppModalableComponent,
+    CardUsingAppModalableComponent
   ],
   imports: [
     BrowserModule,

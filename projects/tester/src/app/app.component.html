@@ -1,4 +1,11 @@
 <div class="content">
 <h1>Card List</h1>
-<app-card *ngFor="let card of cards" [card]="card"></app-card>
+
+<!--<app-card *ngFor="let card of cards" [card]="card"></app-card>-->
+
+<!--<app-card-with-esc *ngFor="let card of cards" [card]="card"></app-card-with-esc>-->
+
+<app-card-using-app-modalable *ngFor="let card of cards"></app-card-using-app-modalable>
+
 </div>
+
